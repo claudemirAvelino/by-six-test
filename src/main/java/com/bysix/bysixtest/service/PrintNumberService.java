@@ -1,21 +1,26 @@
 package com.bysix.bysixtest.service;
 
 public class PrintNumberService {
-    public String correctedValue(Integer number) {
-        if(number != null) {
-            boolean isVisual = divisibleByThree(number);
-            boolean isNuts = divisibleByFive(number);
+    private static final int NUMBER = 100;
 
-            if (isVisual && isNuts) {
+    public void print(){
+        for(int i = 1; i <= NUMBER; i++){
+            System.out.println(correctedValue(i));
+        }
+    }
 
-            } else if (isVisual) {
+    public String correctedValue(int number) {
 
-            } else if (isNuts) {
-
-            } else {
-
-            }
-
+        boolean isVisual = divisibleByThree(number);
+        boolean isNuts = divisibleByFive(number);
+        if (isVisual && isNuts) {
+            // teste
+        } else if (isVisual) {
+            // visual return
+        } else if (isNuts) {
+            // nuts return
+        } else {
+            // raw number return
         }
     }
 
