@@ -1,15 +1,15 @@
-package com.bysix.bysixtest.service;
+package com.bysix.bysixtest.exerciseone.service;
 
-import com.bysix.bysixtest.Enum.VNEnum;
+        import com.bysix.bysixtest.exerciseone.Enum.VNEnum;
 
-import java.util.HashMap;
-import java.util.Map;
+        import java.util.HashMap;
+        import java.util.Map;
 
-import static com.bysix.bysixtest.util.UtilMath.divisibleByFive;
-import static com.bysix.bysixtest.util.UtilMath.divisibleByThree;
+        import static com.bysix.bysixtest.exerciseone.util.UtilMath.divisibleByFive;
+        import static com.bysix.bysixtest.exerciseone.util.UtilMath.divisibleByThree;
 
 public class PrintNumberService {
-    private static final int NUMBER = 100;
+    public static final int NUMBER = 100;
     private Map<VNEnum, String> messages;
 
     public void print(){

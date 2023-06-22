@@ -1,6 +1,6 @@
 package com.bysix.bysixtest;
 
-import com.bysix.bysixtest.service.PrintNumberService;
+import com.bysix.bysixtest.exerciseone.service.PrintNumberService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

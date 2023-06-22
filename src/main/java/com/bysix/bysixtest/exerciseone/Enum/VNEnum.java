@@ -1,4 +1,4 @@
-package com.bysix.bysixtest.Enum;
+package com.bysix.bysixtest.exerciseone.Enum;
 
 public enum VNEnum {
     VISUAL,

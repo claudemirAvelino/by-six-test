@@ -1,4 +1,4 @@
-package com.bysix.bysixtest.util;
+package com.bysix.bysixtest.exerciseone.util;
 
 public class UtilMath {
 
