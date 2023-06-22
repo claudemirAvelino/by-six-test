@@ -19,12 +19,6 @@ public class CountriesDTO {
 
 		try {
 			countries = objectMapper.readValue(jsonFile, Country[].class);
-
-			for (Country country : countries) {
-				System.out.println("Country: " + country.getCountry());
-				System.out.println("Languages: " + country.getLanguages());
-				System.out.println();
-			}
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}

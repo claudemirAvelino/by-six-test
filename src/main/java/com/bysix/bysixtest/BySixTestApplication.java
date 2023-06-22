@@ -10,8 +10,12 @@ public class BySixTestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BySixTestApplication.class, args);
-		//new PrintNumberService().print();
-		new CountriesService();
+		System.out.println("EXERCISE 1");
+		new PrintNumberService().print();
+		System.out.println("");
+		System.out.println("");
+		System.out.println("EXERCISE 2");
+		new CountriesService().execute();
 	}
 
 }
