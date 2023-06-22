@@ -1,12 +1,12 @@
 package com.bysix.bysixtest.exerciseone.service;
 
-        import com.bysix.bysixtest.exerciseone.Enum.VNEnum;
+import com.bysix.bysixtest.exerciseone.Enum.VNEnum;
 
-        import java.util.HashMap;
-        import java.util.Map;
+import java.util.HashMap;
+import java.util.Map;
 
-        import static com.bysix.bysixtest.exerciseone.util.UtilMath.divisibleByFive;
-        import static com.bysix.bysixtest.exerciseone.util.UtilMath.divisibleByThree;
+import static com.bysix.bysixtest.exerciseone.util.UtilMath.divisibleByFive;
+import static com.bysix.bysixtest.exerciseone.util.UtilMath.divisibleByThree;
 
 public class PrintNumberService {
     public static final int NUMBER = 100;
